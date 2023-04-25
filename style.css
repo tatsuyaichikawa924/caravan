@@ -9,11 +9,24 @@ a{
   text-decoration: none;
 }
 
+header,nav,h2,main-visual,footer{
+  font-family: Chalkduster,"Bradley Hand",Courier,"Sogoe Print",sans-serif
+}
+
 header{
   width:90%;
   padding:15px 0;
   margin:0 auto;
   text-align: center;
+  position:relative;
+}
+
+.social{
+  display:inline-block;
+  margin-left: 20px;
+  position: absolute;
+  top: 22px;
+  right:22px;
 }
 
 header-heading{
@@ -171,8 +184,9 @@ instagram .sidebar-contents {
 }
 
 .instagram-box:nth-child(odd) {
-  margin: 0 10px 10px 0;
+  margin-right: 10px;
 }
+
 .instagram-box:nth-child(1) {
   background-image: url(img/airport.jpg);
 }
