@@ -29,7 +29,7 @@ header{
   right:22px;
 }
 
-header-heading{
+.header-heading{
   font-size: 32px;
 }
 
@@ -170,7 +170,7 @@ main{
   padding: 0;
   border: none;
 }
-instagram .sidebar-contents {
+.instagram .sidebar-contents {
   display: flex;
   flex-wrap: wrap;
 }
@@ -184,7 +184,7 @@ instagram .sidebar-contents {
 }
 
 .instagram-box:nth-child(odd) {
-  margin-right: 10px;
+  margin:0 10px 10px 0;
 }
 
 .instagram-box:nth-child(1) {
